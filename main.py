@@ -1,10 +1,6 @@
-from dotenv import load_dotenv
 import os
 import streamlit as st
 from langchain_openai import ChatOpenAI
-
-# .env 파일로부터 환경 변수 로드
-load_dotenv()
 
 # 환경 변수 가져오기
 api_key = os.getenv("OPEN_API_KEY")
